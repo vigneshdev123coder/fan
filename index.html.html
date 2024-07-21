@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+
+
+    button:hover~img{
+        
+        transform: rotate(1500deg);
+        transition: all 5s;
+        
+        
+    }
+
+
+    .second:hover~img{
+        transform: rotate(4500deg);
+        transition:  all 10s;
+
+    }
+
+    .third:hover~img{
+        transform: rotate(50000deg);
+        transition: all 20s;
+
+    }
+
+    .four:hover~img{
+        transform: rotate(400000deg);
+        transition: all 40s;
+    }
+
+    .off:hover~img{
+        transform: rotate(500deg);
+        transition: all 2s;
+    }
+
+
+
+
+
+
+
+
+
+</style>
+</head>
+<body>
+    
+
+
+<div class="fan">
+    
+    <button>1</button>
+    <button class="second">2</button>
+    <button class="third">3</button>
+    <button class="four">4</button>
+    <button class="off">off</button>
+    <img src="./fan.png" alt="fan">
+
+
+      
+</div>
+
+
+
+    
+</body>
+</html>
